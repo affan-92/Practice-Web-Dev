@@ -9,17 +9,40 @@
             padding: 0;
             margin: 0;
         }
+
         .box{
             color: white;
-            background-color: rgb(104, 71, 71);
+            background-color: rgb(129, 105, 105);
             width:50%;
             margin: auto;
         }
+
+        .parent{
+            color: white;
+            background-color: rgb(19, 60, 95);
+            height: 200vmin;
+            width: 200vmax;            
+        }
+        .child{
+            border: 2px solid black;
+            height: 50%;
+            width: 50%;
+        }
+
     </style>
 </head>
 <body>
     <div class="box">
         this is box
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="parent">
+        <p>I am parent Child</p>
+        <div class="child">
+            <p>I am child box</p>
+        </div>
     </div>
 </body>
 </html>
