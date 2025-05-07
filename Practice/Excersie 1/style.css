@@ -1,0 +1,30 @@
+.parent{
+    border: 2px solid rgb(92, 83, 83);
+    width: 70vh;
+    height: 70vh;
+    /* position: absolute; */
+    left: 25%;
+    border-radius: 20px;
+    box-shadow: 5px 15px 5px gray;
+    background: linear-gradient(rgb(172, 238, 224), rgb(255, 157, 157));
+}
+
+img{
+    padding: 5px;
+    height: 50vh;
+    width: 60vh;
+    position: relative;
+    left: 5%;
+    border-radius: 30px;
+}
+
+.btn{
+    margin: 15px;
+    padding-right: 30px;
+}
+
+button{
+    margin: 10px;
+    border-radius: 10px;
+}
+
